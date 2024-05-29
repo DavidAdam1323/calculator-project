@@ -67,6 +67,10 @@ button:active {
   background-color: hsl(34, 97%, 60%);
 }
 
+.operator-btn:active {
+  background-color: hsl(34, 97%, 75%);
+}
+
 /* Responsive styles */
 @media only screen and (max-width: 600px) {
   #calculator {
