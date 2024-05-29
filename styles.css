@@ -50,3 +50,26 @@ button {
   font-weight: bold;
   cursor: pointer;
 }
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  #calculator {
+    width: 90%;
+    max-width: none;
+  }
+
+  #display {
+    font-size: 3rem;
+  }
+
+  #keys {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 15px;
+  }
+
+  button {
+    width: 70px;
+    height: 70px;
+    font-size: 2rem;
+  }
+}
