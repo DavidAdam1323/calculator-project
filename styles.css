@@ -16,6 +16,7 @@ body {
 #calculator {
   font-family: Arial, Helvetica, sans-serif;
   background-color: hsl(0, 0%, 15%);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   max-width: 500px;
   overflow: hidden;
