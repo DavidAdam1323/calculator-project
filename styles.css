@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+#calculator {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(0, 0%, 15%);
+  border-radius: 15px;
+  max-width: 500px;
+}
+
 #keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
