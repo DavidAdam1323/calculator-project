@@ -59,6 +59,14 @@ button:active {
   background-color: hsl(0, 0%, 60%);
 }
 
+.operator-btn {
+  background-color: hsl(34, 97%, 50%);
+}
+
+.operator-btn:hover {
+  background-color: hsl(34, 97%, 60%);
+}
+
 /* Responsive styles */
 @media only screen and (max-width: 600px) {
   #calculator {
