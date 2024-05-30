@@ -51,6 +51,19 @@ button {
   cursor: pointer;
 }
 
+.clear-btn {
+  background-color: hsl(0, 0%, 60%);
+  color: black;
+}
+
+.clear-btn:hover {
+  background-color: hsl(0, 0%, 75%);
+}
+
+.clear-btn:active {
+  background-color: hsl(0, 0%, 90%);
+}
+
 button:hover {
   background-color: hsl(0, 0%, 40%);
 }
