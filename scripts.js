@@ -1,0 +1,3 @@
+// Calculator Project...
+
+const display = document.getElementById("display");
