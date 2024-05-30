@@ -18,20 +18,16 @@ function calculate() {
   // Try to evaluate the expression in the display; ✅
   try {
     display.value = eval(display.value);
+    display.classList.remove("error-message");
   } catch (error) {
     // Catch any errors that occur during evaluation; ✅
     // Display an error message; ✅
-    display.value = "*Invalid Command!";
-
-    // Style the error message; ✅
-    display.style.color = "red";
-    display.style.fontSize = "0.8rem";
+    display.value = "*Invalid";
 
     // Clear the error message after 2 seconds; ✅
     setTimeout(() => {
       display.value = "";
-      display.style.color = "white";
-      display.style.fontSize = "3rem";
-    }, 2000); // Clear the error message after 2 seconds (2000 milliseconds); ✅
+      display.classList.remove("error-message");
+    }, 1000); // Clear the error message after 1 seconds (1000 milliseconds); ✅
   }
 }
